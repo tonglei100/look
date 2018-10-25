@@ -19,15 +19,15 @@ box[1] = (24,3,39,30)
 box[2] = (39,3,54,30)
 box[3] = (54,3,69,30)
 
-
-DATASET_PATH = Path('dataset')
-MODEL_PATH = Path('model')                         # 模型目录
+LOOK_PATH = Path('.')
+DATASET_PATH = LOOK_PATH / 'dataset'
+MODEL_PATH = LOOK_PATH / 'model'                   # 模型目录
 SOURCE_TRAIN_PATH = DATASET_PATH / 'source_train'  # 原始训练图集
 SOURCE_TEST_PATH = DATASET_PATH / 'source_test'    # 原始测试图集
 TRAIN_PATH = DATASET_PATH / 'train'                # 训练图集
 TEST_PATH = DATASET_PATH / 'test'                  # 测试图集
 CAPTCHA_PATH = DATASET_PATH / 'captcha'            # 验证码图片，可以为切图
-DOWNLOAD_Path = DATASET_PATH / 'download'          # 要识别的验证码存放目录
+DOWNLOAD_PATH = DATASET_PATH / 'download'          # 要识别的验证码存放目录
 
 
 # Hyper Parameters

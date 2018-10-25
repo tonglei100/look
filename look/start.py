@@ -1,6 +1,9 @@
+import look.setting
+import setting
+look.setting = setting
+
 from look.cut import cut_captcha, cut_train, cut_test
 from look.captcha import recognize, train, test
-import setting
 
 
 # 把训练图集切图为单个字符的图集，默认已切图，重新切图需把 dataset/train 目录下图片删除
@@ -16,9 +19,9 @@ import setting
 # test('model.pkl')
 
 
-captcha_path = setting.DOWNLOAD_Path / '5U62_1539929795.png'
+captcha_path = setting.DOWNLOAD_PATH / '5U62_1539929795.png'
 
-# 如果需要切图，建议是切图
+# 如果需要切图
 cut_captcha(captcha_path)
 
 # 默认是识别 dataset/captcha 目录，如果为切图，会自动组合为字符串

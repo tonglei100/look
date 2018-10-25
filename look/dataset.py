@@ -3,7 +3,7 @@ from torch.utils.data import DataLoader, Dataset
 import torchvision.transforms as transforms
 from PIL import Image
 from look import one_hot as ohe
-import setting
+from look import setting
 
 
 class mydataset(Dataset):

@@ -1,5 +1,5 @@
 import torch.nn as nn
-import setting
+from look import setting
 
 # CNN Model (2 conv layer)
 class CNN(nn.Module):
