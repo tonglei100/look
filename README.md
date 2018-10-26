@@ -1,4 +1,4 @@
-![Look](https://github.com/tonglei100/look/blob/master/snapshot/logo.png?raw=true)
+![Look](https://github.com/tonglei100/look/blob/master/snapshot/logo.jpg?raw=true)
 
 # Look
 
