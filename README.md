@@ -4,7 +4,12 @@
 
 Look 是一款基于 CNN 训练的验证码识别工具，提供切图、训练、测试、识别等方法，优点是样本需求少，运行速度快，使用超级简单。
 
-项目地址： <https://github.com/tonglei100/look/tree/master/look>
+QQ 交流群：158755338 (验证码：python)
+
+扫描**公众号**及**QQ群**二维码加入我们
+
+![Look](https://github.com/tonglei100/sweetest/blob/master/snapshot/sweetest.jpg?raw=true)
+
 
 ## 安装
 
