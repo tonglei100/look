@@ -17,6 +17,7 @@ from look.captcha import recognize, train, test
 # cut_test()
 
 # 对 **训练图集** 进行训练，本示例默认已提供训练模型，重新训练前，需要删除 model.pkl 文件，或修改文件名
+# model.pkl 是要保存的模型名称，可根据需要定义不同的名称
 # model.pkl 存放目录为 setting.MODEL_PATH 配置，默认是 model/ 目录
 # train('model.pkl')
 
@@ -24,12 +25,13 @@ from look.captcha import recognize, train, test
 # test('model.pkl')
 
 # 需要识别的验证码文件路径，可以为任意路径，默认为 setting.DOWNLOAD_PATH 配置，验证码名称可以为任意取名
-captcha_path = setting.DOWNLOAD_PATH / '5U62_1539929795.png'
+picture = setting.DOWNLOAD_PATH / '5U62_1539929795.png'
 
 # 如果训练的是切图后的图片集（如本示例），那么识别也需要切图，切图后图片放在 **验证码目录** 中
 # **验证码目录** 目录为 setting.CAPTCHA_PATH 配置，默认是 dataset/captcha/
-cut_captcha(captcha_path)
+cut_captcha(picture)
 
-# 识别 **验证码目录** 中的图片，如果为切图（即有多张图片，如本是咧），会自动组合为字符串
+# 识别 **验证码目录** 中的图片，如果为切图（即有多张图片，如本示例），会自动组合为字符串
+# model.pkl 是要使用模型名称，请确保 setting.MODEL_PATH 配置的目录下有该文件
 code = recognize('model.pkl')
 print(code)
