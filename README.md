@@ -15,7 +15,7 @@ Look 是一款基于 CNN 训练的验证码识别工具，提供切图、训练�
 
 找到适合自己的安装方式，如 Python3.6 的安装方式：
 
-```
+```shell
 # Python 3.6
 pip3 install http://download.pytorch.org/whl/cpu/torch-0.4.1-cp36-cp36m-win_amd64.whl
 pip3 install torchvision
@@ -26,12 +26,15 @@ pip3 install torchvision
 
 #### 初次安装
 
-    pip install look
+```shell
+pip install look
+```
 
 #### 升级
 
-    pip install -U look
-
+```shell
+pip install -U look
+```
 
 ## 快速体验
 
@@ -41,6 +44,45 @@ pip3 install torchvision
 look
 cd look_example
 python start.py
+```
+
+## 说用说明
+
+### 1. 收集训练集图片，切图
+
+收集验证码图片样本集，放在 **原始训练图集** 目录。
+需要把验证码图片手工命名，格式：验证码_时间戳，比如验证码图片上字符为 U6k4，则命名为 U6k4_1234567890.png
+如果验证码上字符有大小写，而实际输入不区分大小写，则可以全部命名为大写字母(建议做法)。
+字符集需要和 setting.py 中定义的一致，根据需要修改。
+
+切图方法如下，详细说明见示例代码说明
+
+```Python
+cut_train()
+```
+
+### 2. 训练
+
+训练方法如下，详细说明见示例代码说明
+```Python
+train('model.pkl')
+```
+
+
+### 2. 收集训练集图片，切图
+
+和 **1. 收集训练** 类似。
+
+### 4. 测试
+
+和 **2. 训练** 类似。
+
+### 4. 识别
+
+识别方法如下，详细说明见示例代码说明
+
+```python
+code = recognize('model.pkl')
 ```
 
 # 后记
