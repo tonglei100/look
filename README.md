@@ -46,7 +46,7 @@ cd look_example
 python start.py
 ```
 
-## 说用说明
+## 使用说明
 
 ### 1. 收集训练集图片，切图
 
