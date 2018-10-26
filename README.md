@@ -25,3 +25,16 @@ look
 cd look_example
 python start.py
 ```
+
+# 后记
+
+本项目是基于开源项目 [pytorch-captcha-recognition](https://github.com/dee1024/pytorch-captcha-recognition)，主要做了一下功能优化：
+1、train 中加入 cnn.train()
+2、recognize 中加入 cnn.eval()
+3、增加切图处理，大大减少了训练集样本数量
+4、one_hot 函数优化
+5、函数接口简化
+6、提供 pip 安装包
+7、提供示例
+
+最后，感谢 Dee Qiu @dee1024 的贡献。
