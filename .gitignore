@@ -3,5 +3,5 @@ packer_cache/
 
 # For built boxes
 *.box
-*.png
+/look/dataset/**/*.png
 .git*

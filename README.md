@@ -63,6 +63,18 @@ python start.py
 
 验证码的字符集需要和 setting.py 中定义的一致，请根据需要修改。
 
+#### 切图
+
+切图的前提条件是验证码字符能够等分切图，即：无黏连，并且都出现在固定位置，如：
+
+![CUT](https://github.com/tonglei100/look/blob/master/snapshot/captcha.png?raw=true)
+
+切图参数在 setting.py 的中 box 中配置。
+
+如果验证码不符合切图条件，则跳过切图步骤，直接把验证码收集到 **训练图集** 目录。
+
+#### 切图方法
+
 切图方法如下，详细说明见示例代码说明
 
 ```Python
