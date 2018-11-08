@@ -77,7 +77,7 @@ python start.py
 
 切图方法如下，详细说明见示例代码说明
 
-```Python
+```python
 cut_train()
 ```
 
@@ -85,7 +85,7 @@ cut_train()
 
 训练方法如下，详细说明见示例代码说明
 
-```Python
+```python
 train('model.pkl')
 ```
 
@@ -97,7 +97,7 @@ train('model.pkl')
 
 和 **2. 训练** 类似。
 
-```Python
+```python
 test('model.pkl')
 ```
 
