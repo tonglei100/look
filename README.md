@@ -1,4 +1,4 @@
-![Look](https://sweeter.io/docs/_media/look.png)
+![Look](https://sweeter.io/docs/_media/look.jpg)
 
 # Look
 
@@ -44,7 +44,7 @@ cd look_example
 python start.py
 ```
 
-详细文档：文档：https://sweeter.io/#/look/
+> 详细文档：https://sweeter.io/#/look/
 
 ## 加入我们
 
