@@ -1,4 +1,4 @@
-![Look](https://doc.sweeter.io/docs/_media/look.jpg)
+![Look](https://sweeter.io/docs/_media/look.jpg)
 
 # Look
 
@@ -44,7 +44,7 @@ cd look_example
 python start.py
 ```
 
-> 详细文档：https://doc.sweeter.io/#/look/
+> 详细文档：https://sweeter.io/#/look/
 
 ## 加入我们
 
@@ -53,7 +53,7 @@ QQ 交流群：**158755338**
 
 微信公众号：**喜文测试**
 
-![QQ2](https://doc.sweeter.io/docs/_media/QQ.png)![WeChat](https://doc.sweeter.io/docs/_media/WeChat.png)
+![QQ2](https://sweeter.io/docs/_media/QQ.png)![WeChat](https://sweeter.io/docs/_media/WeChat.png)
 
 
 ## 后记
